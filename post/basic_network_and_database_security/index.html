@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Basic Network and Database Security ::
+        Shans Blog — A simple theme for Hugo
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Completed IBM&amp;rsquo;s course Basic Network and Database Security on EdX.
+Here are some of my main takeaways:
+ Stateless and Stateful Inspection    Stateless Inspection Stateful Inspection     Each packet inspected independently as no session table is maintained Each packet inspected with knowledge of previous packets in that same session as a firewall maintains a database   Faster, protecting routing engine resources If an incoming packet doesn’t match an existing session, the path through the firewall is longer   Examine source IP address, ACL rule, destination port Can see ingoing and outgoing interface   Helpful for routers with virtualization    Perform quality of service switches to prioritize traffic        OSI Model Layers Stateless Inspection Through the OSI Model Layers     (7) Application Open web browser   (4) Transport Browser creates TCP traffic, giving packet an IP address   (3) Network Packet header has source and destination IP address   (2) Data Link Physical or MAC address of source and destination computers, and MAC address of gateway added to packet header   (1) Physical Router evaluates packet before forwarding     Address Resolution Protocol  ARP takes IP address input and returns MAC address of that computer MAC address of destination is only required when transmitting data within the same broadcast domain, otherwise only the MAC address of default gateway is needed ARP table only translates addresses within the same local broadcast domain   IDS and IPS Systems Firewalls have a:"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://assouline-exe.github.io/post/basic_network_and_database_security/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://assouline-exe.github.io/assets/style.css" />
+
+<link rel="stylesheet" href="https://assouline-exe.github.io/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://assouline-exe.github.io/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://assouline-exe.github.io/img/favicon.png" />
+
+
+<link href="https://assouline-exe.github.io/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-exe.github.io/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-exe.github.io/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-exe.github.io/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-exe.github.io/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-exe.github.io/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Basic Network and Database Security"/>
+<meta name="twitter:description" content="Completed IBM&#39;s course Basic Network and Database Security on EdX..."/>
+
+
+
+<meta property="og:title" content="Basic Network and Database Security" />
+<meta property="og:description" content="Completed IBM&#39;s course Basic Network and Database Security on EdX..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://assouline-exe.github.io/post/basic_network_and_database_security/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-01-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-27T00:00:00+00:00" /><meta property="og:site_name" content="Shans Blog" />
+
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="https://assouline-exe.github.io/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Shans Blog</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="https://assouline-exe.github.io/about">About</a></li>
+        
+      
+        
+          <li><a href="https://assouline-exe.github.io/learning">Learning</a></li>
+        
+      
+        
+          <li><a href="https://assouline-exe.github.io/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="https://assouline-exe.github.io/resources">Resources</a></li>
+        
+      
+        
+          <li><a href="https://assouline-exe.github.io/studyspaces">Study Spaces</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="https://assouline-exe.github.io/about">About</a></li>
+      
+    
+      
+        <li><a href="https://assouline-exe.github.io/learning">Learning</a></li>
+      
+    
+      
+        <li><a href="https://assouline-exe.github.io/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="https://assouline-exe.github.io/resources">Resources</a></li>
+      
+    
+      
+        <li><a href="https://assouline-exe.github.io/studyspaces">Study Spaces</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Basic Network and Database Security</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2022-01-27
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>Completed IBM&rsquo;s course Basic Network and Database Security on EdX.</p>
+<p>Here are some of my main takeaways:</p>
+<hr>
+<h3 id="stateless-and-stateful-inspection">Stateless and Stateful Inspection</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Stateless Inspection</strong></th>
+<th><strong>Stateful Inspection</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Each packet inspected independently as no session table is maintained</td>
+<td>Each packet inspected with knowledge of previous packets in that same session as a firewall maintains a database</td>
+</tr>
+<tr>
+<td>Faster, protecting routing engine resources</td>
+<td>If an incoming packet doesn’t match an existing session, the path through the firewall is longer</td>
+</tr>
+<tr>
+<td>Examine source IP address, ACL rule, destination port</td>
+<td>Can see ingoing and outgoing interface</td>
+</tr>
+<tr>
+<td>Helpful for routers with virtualization</td>
+<td></td>
+</tr>
+<tr>
+<td>Perform quality of service switches to prioritize traffic</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>OSI Model Layers</strong></th>
+<th><strong>Stateless Inspection Through the OSI Model Layers</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(7) Application</td>
+<td>Open web browser</td>
+</tr>
+<tr>
+<td>(4) Transport</td>
+<td>Browser creates TCP traffic, giving packet an IP address</td>
+</tr>
+<tr>
+<td>(3) Network</td>
+<td>Packet header has source and destination IP address</td>
+</tr>
+<tr>
+<td>(2) Data Link</td>
+<td>Physical or MAC address of source and destination computers, and MAC address of gateway added to packet header</td>
+</tr>
+<tr>
+<td>(1) Physical</td>
+<td>Router evaluates packet before forwarding</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="address-resolution-protocol">Address Resolution Protocol</h3>
+<ul>
+<li>ARP takes IP address input and returns MAC address of that computer</li>
+<li>MAC address of destination is only required when transmitting data within the same broadcast domain, otherwise only the MAC address of default gateway is needed</li>
+<li>ARP table only translates addresses within the same local broadcast domain</li>
+</ul>
+<hr>
+<h3 id="ids-and-ips-systems">IDS and IPS Systems</h3>
+<p>Firewalls have a:</p>
+<ul>
+<li>Forwarding plane that forwards traffic, makes routing decisions, policy evaluations, and session matching</li>
+<li>Control plane that runs the OS which controls the device and routing table</li>
+</ul>
+<p>Both IDS and IPS examine network traffic to detect and prevent vulnerability exploits:</p>
+<table>
+<thead>
+<tr>
+<th>Intrusion Detection System (IDS)</th>
+<th>Intrusion Prevention System (IPS)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monitors traffic and alerts administrator if needed, but doesn’t take action unless configured to run scripts</td>
+<td>Takes action automatically when an anomaly is detected</td>
+</tr>
+<tr>
+<td>Dedicated server connected to a port on a switch</td>
+<td>Positioned after a router, edge device, or firewall</td>
+</tr>
+<tr>
+<td>Switch forwards a copy of traffic to IDS (offline)</td>
+<td>All traffic passes through, which adds a delay to flow of network traffic (inline)</td>
+</tr>
+<tr>
+<td>Anomaly-based detection: finds traffic that doesn’t follow the standards of its protocol</td>
+<td>Statistical anomaly-based detection</td>
+</tr>
+<tr>
+<td></td>
+<td>Signature-based detection: signatures describe common patterns of malware traffic</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Other types of IDS and IPS systems:
+<ul>
+<li>Host-based IDS (HIDS): Software installed on endpoint machine to monitor traffic and may take action</li>
+<li>Network-based IDS and IPS: Hardware, either configured to the core switch or sitting in the middle of the stream of traffic, that listens to traffic sent or flowing through it</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="network-address-translation">Network Address Translation</h3>
+<p>Remaps IP address space by modifying the network address information in the packet headers when they’re passing through a NAT router</p>
+<ul>
+<li>Increased security by hiding real IP addresses from the world</li>
+<li>Shares one Internet-routable IP address of a NAT gateway for an entire private network</li>
+<li>Types of NAT:
+<ul>
+<li>Static: one-to-one mapping between local and global addresses</li>
+<li>Dynamic: maps unregistered to a registered IP address from a pool of them</li>
+<li>Overloading: map all internal IP addresses to a single external/public one
+<ul>
+<li>NAT maintains database of addresses and port mapping</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="ethernet-and-lan--ethernet-operations">Ethernet and LAN- Ethernet Operations</h3>
+<table>
+<thead>
+<tr>
+<th>OSI Model Layer</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>(3) Network Layer</td>
+<td>-Uses IP (IPv4 or IPv6) addresses                                                                       -Data is encapsulated with a packet header, then another                               -Checks if the destination IP address matches its own and if it does, strips off layer 3 header and sends it to layer 4</td>
+</tr>
+<tr>
+<td>(2) Data Link Layer</td>
+<td>-Header contains source and destination MAC IP addresses, protocol type, the data, and the checksum                                                                                -Checks if the destination MAC addresses matches its own and if it does, strips off layer 2 header and sends it to layer 3</td>
+</tr>
+<tr>
+<td>(1) Physical Layer</td>
+<td>-Ethernet cable or wireless connection connects computers to a LAN                                                                   -Converts electronic signals to digital bits</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Networks support full-duplex communications, so computers can send and receive data at the same time</li>
+<li>Types of communication:
+<ul>
+<li>Unicast: one-to-one between two computers</li>
+<li>Broadcast: one computer sends information to all computers on a network using the broadcast IP address</li>
+<li>Multicast: one-to-many where endpoints subscribe to receive messages</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="application-and-transport-protocols-tcp-and-udp">Application and Transport Protocols TCP and UDP</h3>
+<p>In both TCP and UDP, the data stream is broken down into small chunks of data put into separate packets, addressed, and sent</p>
+<table>
+<thead>
+<tr>
+<th>Transport Control Protocol (TCP)</th>
+<th>User Datagram Protocol (UDP)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sets up a connection to acknowledge all packets that have been sent and received in correct order</td>
+<td>Sender doesn’t know if packet has been received, and the receiver reassembles the data in the order the packets arrive</td>
+</tr>
+<tr>
+<td>Slow</td>
+<td>Fast, good for streaming videos and music</td>
+</tr>
+<tr>
+<td>Flow control (sent packets are not faster than receiving system)</td>
+<td>No flow control</td>
+</tr>
+<tr>
+<td>Bundle of data and headers called a segment</td>
+<td>Bundle of data and headers called a datagram</td>
+</tr>
+<tr>
+<td>Three way handshake to establish connection: send SYN to recipient, recipient responds with SYN ACK, sender responds ACK</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="dns-and-dhcp">DNS and DHCP</h3>
+<table>
+<thead>
+<tr>
+<th>Domain Name Service (DNS)</th>
+<th>Dynamic Host Configuration Protocol (DHCP)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Translates domain names in URLs into IP addresses</td>
+<td>Automatically configures and manages IP addresses on endpoints from a pool of available IP addresses</td>
+</tr>
+<tr>
+<td>Runs on local machine, often hosted on the default gateway</td>
+<td>Handshake consists of four packets between the requesting system and DHCP server: discover (broadcast message to all endpoints on network segment), offer, request, and acknowledgement</td>
+</tr>
+<tr>
+<td></td>
+<td>Marks IP address as leased to the MAC address of the endpoint</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="clustering-and-high-availability-systems">Clustering and High Availability Systems</h3>
+<ul>
+<li>Information security should ensure: <strong>C</strong>onfidentiality, <strong>I</strong>ntegrity, and <strong>A</strong>vailability</li>
+<li>High availability is a system where a component is continuously operational to ensure optimal operational performance</li>
+<li>Requirements for creating a HA cluster:
+<ul>
+<li>Hosts in a virtual server cluster must have access to the same shared storage with identical network configurations</li>
+<li>DNS should be configured properly</li>
+<li>Same OS and hardware</li>
+<li>Connections between primary and secondary nodes</li>
+</ul>
+</li>
+<li>Three characteristics:
+<ul>
+<li>Redundancy: multiple components do the same task</li>
+<li>Monitoring and Failover: secondary device should always be monitoring your primary device because it should be able to take over as primary role if needed</li>
+</ul>
+</li>
+<li>NIC teaming is when there is more than one NIC operating at the same time</li>
+</ul>
+<hr>
+<h3 id="types-of-data">Types of Data</h3>
+<ul>
+<li>Structured data: organized in a formatted repository so its elements are addressable for processing and analysis
+<ul>
+<li>Distributed databases and data warehouses are structured data</li>
+<li>Flat-file databases take all information from all records and store everything in one table
+<ul>
+<li>Repetition, requires more storage</li>
+</ul>
+</li>
+<li>Relational databases separate information into numerous tables, linked through primary and foreign keys (primary key from one table that has been placed in another table)</li>
+</ul>
+</li>
+<li>Semi-structured data: not in a repository, but data has associated information like metadata that makes it more amenable to processing
+<ul>
+<li>Big data are semi-structured data</li>
+</ul>
+</li>
+<li>Unstructured data: in many different forms and isn’t typically good for mainstream relational databases
+<ul>
+<li>File shares are unstructured data</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="securing-databases">Securing Databases</h3>
+<ol>
+<li>Discover
+<ol>
+<li>Identify data sources and classify the type of data</li>
+<li>Entitlement reporting (who has access to the data or data source?)</li>
+<li>Vulnerability assessment (how secure is the repository?)</li>
+</ol>
+</li>
+<li>Harden
+<ol>
+<li>Reconfigure, mask, and encrypt data to protect it</li>
+</ol>
+</li>
+<li>Monitor and protect
+<ol>
+<li>Activity monitoring, blocking quarantine, and dynamic data masking</li>
+</ol>
+</li>
+<li>Repeat</li>
+</ol>
+<p>Where data sources are hosted:</p>
+<ul>
+<li>On premises
+<ul>
+<li>Operate and have full control over the database</li>
+</ul>
+</li>
+<li>Infrastructure as a Service (IaaS)
+<ul>
+<li>Maintain full access to application, data, runtime, middleware, and OS</li>
+<li>Provider owns, runs, and updates virtualization, networking, storage, and servers</li>
+</ul>
+</li>
+<li>Platform as a Service (PaaS)
+<ul>
+<li>Maintain full access to application and data</li>
+<li>Provider owns, runs, and updates runtime, middleware, OS, virtualization, networking, storage, and servers</li>
+<li>To secure PaaS, one could tokenize their data</li>
+</ul>
+</li>
+<li>Software as a Service (SaaS)
+<ul>
+<li>Provider handles everything; there is no ability to reconfigure any aspect</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="os-command-injection">OS Command Injection</h3>
+<ul>
+<li>OS command injection is abuse of vulnerable application that causes execution of OS commands that are specified by the attacker
+<ul>
+<li>Vulnerabilities made possible by lack of input sanitization and by unsafe way developers execute OS commands
+<ul>
+<li>Need defensive code to verify a file parameter is correct</li>
+<li>Attackers use semicolons to chain together multiple OS commands</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>For prevention:</p>
+<ul>
+<li>Limit executing OS commands and instead use the functionality built into programming language or use third-party libraries to reduce attack surface</li>
+<li>Run at the least possible privilege level, under a user account with the least required rights</li>
+<li>Do not run commands through shell interpreters because this makes a lot of syntax, like the use of a semicolon, no longer valid</li>
+<li>Use explicit paths when running executables
+<ul>
+<li>If a writeable folder is referenced in the path before the folder containing the valid executable, an attacker may install a malicious version of the application</li>
+</ul>
+</li>
+<li>If possible, do not let user input reach the place where you execute the command unchanged
+<ul>
+<li>Modify user input or replace user-specified values with generated IDs
+<ul>
+<li>For example, instead of letting users specify a particular file,  have a numeric ID that corresponds to that file and when the parameters come in, that ID is passed in</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Sanitize user input with strict whitelists (not blacklists)
+<ul>
+<li>Best to use the regular expression whitelist [A-Za-z0-9.]+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="sql-injection">SQL Injection</h3>
+<ul>
+<li>Abuse of vulnerable application functionality that causes execution of attacker-specified SQL queries</li>
+<li>Common types:
+<ul>
+<li>Error-based: tailor actions based on database errors that show how a system behaves and give back private information</li>
+<li>UNION-based: adds union class to the query for data exfiltration</li>
+<li>Blind injection: data can be inferred by executing many queries where behavior presents one of two outcomes
+<ul>
+<li>Boolean-based (one of two possible responses) or time-based (immediate vs delayed execution)</li>
+</ul>
+</li>
+<li>Out of band: trigger requests to other sites and exfiltrate data through a separate channel, like sending an HTTP request</li>
+</ul>
+</li>
+</ul>
+<p>Similar prevention tactics as OS injection:</p>
+<ul>
+<li>Use prepared statements
+<ul>
+<li>Separate the query structure from query parameters</li>
+</ul>
+</li>
+<li>Sanitize user input</li>
+<li>Do not expose native database errors to the user
+<ul>
+<li>Application errors should not expose internal information to the user; detailed error messages belong in internal log files</li>
+</ul>
+</li>
+<li>Limit database user permissions</li>
+<li>Use ORM libraries
+<ul>
+<li>Create in-memory set of objects that map your database structure</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="https://assouline-exe.github.io/post/hello/">
+                  <span class="button__text">Welcome,</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="https://assouline-exe.github.io/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Shans Blog</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://assouline-exe.github.io/assets/main.js"></script>
+<script src="https://assouline-exe.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

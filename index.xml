@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shans Blog</title>
+    
+    
+    
+    <link>https://assouline-exe.github.io/</link>
+    <description>Recent content on Shans Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://assouline-exe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Network and Database Security</title>
+      <link>https://assouline-exe.github.io/post/basic_network_and_database_security/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/basic_network_and_database_security/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Completed IBM&#39;s course Basic Network and Database Security on EdX...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://assouline-exe.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/projects/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I am currently working on my first personal project. Please check back later for updates.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Recent Learning</title>
+      <link>https://assouline-exe.github.io/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/learning/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          What I&amp;rsquo;ve been learning in my free time&amp;hellip;
+ 2022-01-27
+EdX: Basic Network and Database and Security
+My main takeaways can be found here.
+ 
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://assouline-exe.github.io/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/resources/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Some great resources I&amp;rsquo;ve used to learn about cybersecurity and practice skills:
+ Hands-On Hacking  TryHackMe Hack the Box VulnHub Over the Wire: Wargames   Online Courses  EdX  Basic Network and Database Security   Cybrary   Youtubers  Null Byte Network Chuck   Papers  NIST Framework   News  CSO Online Dark Reading   Misc.  Map of Cybersecurity Domains MITRE ATT&amp;amp;CK  
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Study Space Reviews</title>
+      <link>https://assouline-exe.github.io/studyspaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/studyspaces/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Some of my favorite study spots:
+    Interior Highlight Drink          High ceilings, simple colors Creative seating Rose Matcha Latte    Ogawa Coffee; Milk St, Boston MA
+Rose matcha latte is sophisticatedly balanced, and the aroma of sprinkled rose petals accompanies every sip. Simple interior, windows stretching from the floor to high ceilings, ample types of seating, and soft classical music in the background.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Welcome,</title>
+      <link>https://assouline-exe.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          My name is Shannon and I am currently studying cybersecurity at Northeastern University.
+Here you&amp;rsquo;ll find a collection of things I&amp;rsquo;m currently learning, my personal projects, cyber resources I have found useful, and brief reviews of my favorite coffee shops and libraries to study in.
+ Academic Interests Broadly, my current interests lie in:
+ Cyber operational planning Threat analysis Incident response  As I further explore different fields within cybersecurity, I anticipate these interests to be refined.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Welcome,</title>
+      <link>https://assouline-exe.github.io/post/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/hello/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          My name is Shannon and I am currently studying cybersecurity at Northeastern University...
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>
