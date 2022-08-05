@@ -9,7 +9,7 @@
     <description>Recent content in Posts on Shans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://assouline-exe.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>Welcome,</title>
       <link>https://assouline-exe.github.io/post/hello/</link>
-      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://assouline-exe.github.io/post/hello/</guid>
       <description>
@@ -29,6 +29,26 @@
         
         
           My name is Shannon and I am currently studying cybersecurity at Northeastern University...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Object Oriented Design</title>
+      <link>https://assouline-exe.github.io/post/cs3500/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/cs3500/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Object-Oriented Design (CS3500) has been the most challenging course I have taken to date...
           
         
         </description>
@@ -49,6 +69,26 @@
         
         
           I gave a very brief interview about my experiences as a cybersecurity student, which is...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Foundations of Cybersecurity</title>
+      <link>https://assouline-exe.github.io/post/cy2550/</link>
+      <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/cy2550/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Foundations of Cybersecurity (CY2550) was the class I had been most excited for thus far...
           
         
         </description>
