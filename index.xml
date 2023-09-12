@@ -9,7 +9,7 @@
     <description>Recent content on Shans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Sep 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://assouline-exe.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,7 +17,7 @@
     <item>
       <title>Welcome,</title>
       <link>https://assouline-exe.github.io/post/hello/</link>
-      <pubDate>Fri, 05 Aug 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://assouline-exe.github.io/post/hello/</guid>
       <description>
@@ -28,7 +28,107 @@
         
         
         
-          My name is Shannon and I am currently studying cybersecurity at Northeastern University...
+          My name is Shannon and I am currently studying computer science at Northeastern University...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>CySA&#43; Certification</title>
+      <link>https://assouline-exe.github.io/post/cysa/</link>
+      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/cysa/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Passed CySA+! For two months, I biked to the office an hour early so I could...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Starting CTF Club at Northeastern</title>
+      <link>https://assouline-exe.github.io/post/ctfclub/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/ctfclub/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          This semester, myself and a talented group of fellow board members are starting a CTF club...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>National CCDC Competition</title>
+      <link>https://assouline-exe.github.io/post/nationals23/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/nationals23/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          This year, Northeastern&#39;s CCDC team made it to the national competition in Texas, and we...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Security&#43; Certification</title>
+      <link>https://assouline-exe.github.io/post/security/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/security/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Passed Security+! After consistently studying all of Fall semester, I hunkered down during ...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Udemy: Complete Ethical Hacking Course</title>
+      <link>https://assouline-exe.github.io/post/udemy_ethical_hacking/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/udemy_ethical_hacking/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Completed The Complete Ethical Hacking Course on Udemy...
           
         
         </description>
@@ -49,6 +149,26 @@
         
         
           Object-Oriented Design (CS3500) has been the most challenging course I have taken to date...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>System Security</title>
+      <link>https://assouline-exe.github.io/post/cy3740/</link>
+      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-exe.github.io/post/cy3740/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          System Security (CY3740) was- and I anticipate always will be- the best course I have taken...
           
         
         </description>
@@ -115,7 +235,7 @@
     </item>
     
     <item>
-      <title>Basic Network and Database Security</title>
+      <title>EdX: Basic Network and Database Security</title>
       <link>https://assouline-exe.github.io/post/basic_network_and_database_security/</link>
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -148,7 +268,12 @@
         
         
         
-          I am currently working on my first personal project. Please check back later for updates.
+          Ongoing
+CTF Club Challenges
+As Co-Founder and Vice President of the CTF club on campus, I have been making CTF challenges for our general meetings and competitions. The challenges range in topic and difficulty, and are designed to introduce members of all skill levels to various cybersecurity areas.
+2023-08
+Linux Security Dashboard
+Python. Designed a user-friendly CLI dashboard to display an overview of a Linux system&amp;rsquo;s current status and network activity at a glance.
           
         
         </description>
@@ -169,10 +294,16 @@
         
         
           What I&amp;rsquo;ve been learning in my free time&amp;hellip;
- 2022-01-27
-EdX: Basic Network and Database and Security
-My main takeaways can be found here.
- 
+2023-09 - Currently:
+Studying for CompTIA PenTest+ Reading Mastering Linux Security and Hardening and implementing techniques in creating CCDC tools PicoCTF, CTFLearn, TryHackMe, Grind 75 Leetcode 2023-09
+CompTIA: Cybersecurity Analyst (CySA+)
+My main takeaways can be found here
+2023-01
+CompTIA: Security+
+My main takeaways can be found here
+2022-08
+Udemy: The Complete Ethical Hacking Course
+My main takeaways can be found here
           
         
         </description>
@@ -193,7 +324,7 @@ My main takeaways can be found here.
         
         
           Some great resources I&amp;rsquo;ve used to learn about cybersecurity and practice skills:
- Hands-On Hacking  TryHackMe Hack the Box VulnHub Over the Wire: Wargames   Online Courses  EdX  Basic Network and Database Security   Cybrary   Youtubers  Null Byte Network Chuck   Papers  NIST Framework   News  CSO Online Dark Reading   Misc.  Map of Cybersecurity Domains MITRE ATT&amp;amp;CK  
+Hands-On Hacking TryHackMe Hack the Box PicoCTF CTF Learn pwn.college RingZer0 VulnHub Over the Wire: Wargames Papers and Books The Protection of Information in Computer Systems Reflections on Trusting Trust Mastering Linux Security and Hardening News The Hacker News Threatpost Bleeping Media Dark Reading Youtubers IppSec LiveOverflow Null Byte John Hammond Network Chuck Misc. References Map of Cybersecurity Domains CTF Playbook CTF 101 Guide CTF Tools HackTricks 
           
         
         </description>
@@ -214,8 +345,8 @@ My main takeaways can be found here.
         
         
           Some of my favorite study spots:
-    Interior Highlight Drink          High ceilings, simple colors Creative seating Rose Matcha Latte    Ogawa Coffee; Milk St, Boston MA
-Rose matcha latte is sophisticatedly balanced, and the aroma of sprinkled rose petals accompanies every sip. Simple interior, windows stretching from the floor to high ceilings, ample types of seating, and soft classical music in the background.
+Interior Highlight Drink High ceilings, simple colors Creative seating Rose Matcha Latte Ogawa Coffee; Milk St, Boston MA
+Rose matcha latte is sophisticatedly balanced, and the aroma of sprinkled rose petals accompanies every sip. Simple interior, windows stretching from the floor to high ceilings, ample types of seating, and soft classical music in the background. If its address isn&amp;rsquo;t clue enough that Ogawa is the perfect study cafe, this is your sign.
           
         
         </description>
@@ -235,10 +366,10 @@ Rose matcha latte is sophisticatedly balanced, and the aroma of sprinkled rose p
         
         
         
-          My name is Shannon and I am currently studying cybersecurity at Northeastern University.
-Here you&amp;rsquo;ll find a collection of things I&amp;rsquo;m currently learning, my personal projects, cyber resources I have found useful, and brief reviews of my favorite coffee shops and libraries to study in.
- Academic Interests Broadly, my current interests lie in:
- Cyber operational planning Threat analysis Incident response  As I further explore different fields within cybersecurity, I anticipate these interests to be refined.
+          My name is Shannon and I am a current third-year studying computer science with a systems concentration at Northeastern University.
+Here you&amp;rsquo;ll find a collection of things I&amp;rsquo;m currently learning, some personal projects, educational resources I have found useful, and brief reviews of my favorite Boston-area coffee shops to study in.
+Academic Interests My interests primarily lie in the field of cybersecurity:
+Penetration Testing DevSecOps Security Engineering I gravitate towards topics that delve into the technical intricacies of cybersecurity and require a programming-centric approach.
           
         
         </description>
