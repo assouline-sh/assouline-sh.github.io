@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        EdX: Basic Network and Database Security ::
+        Shans Blog — A simple theme for Hugo
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Completed IBM&amp;rsquo;s course Basic Network and Database Security on EdX.
+This was really exciting, as it&amp;rsquo;s the first cybersecurity related online course I&amp;rsquo;ve completed independently. It was hard to make time for it everyday- juggling college classes, clubs, and other responsibilities- but overall incredibly rewarding. I&amp;rsquo;d like to continue to fit independent study within my schedule.
+Here are some of the main concepts covered:
+Stateless inspection and stateful inspection OSI model layers Address Resolution Protocol (ARP) Intrusion detection system (IDS) and intrusion prevention system (IPS) Network address translation Ethernet and LAN-ethernet operations Transport control protocol (TCP) and user datagram protocol (UDP) Domain name system (DNS) and dynamic host configuration protocol (DHCP) Clustering and high availability systems Types of data and how to secure databases OS command injection and prevention tactics SQL injection and prevention tactics "
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://assouline-sh.github.io/post/edx/" />
+
+
+
+
+
+<link rel="stylesheet" href="https://assouline-sh.github.io/assets/style.css" />
+
+<link rel="stylesheet" href="https://assouline-sh.github.io/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="https://assouline-sh.github.io/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="https://assouline-sh.github.io/img/favicon.png" />
+
+
+<link href="https://assouline-sh.github.io/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-sh.github.io/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-sh.github.io/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-sh.github.io/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-sh.github.io/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="https://assouline-sh.github.io/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="EdX: Basic Network and Database Security"/>
+<meta name="twitter:description" content="Completed IBM&#39;s course Basic Network and Database Security on EdX. This was really..."/>
+
+
+
+<meta property="og:title" content="EdX: Basic Network and Database Security" />
+<meta property="og:description" content="Completed IBM&#39;s course Basic Network and Database Security on EdX. This was really..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://assouline-sh.github.io/post/edx/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-01-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-27T00:00:00+00:00" />
+
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="https://assouline-sh.github.io/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Shan&#39;s Blog</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="https://assouline-sh.github.io/about">About</a></li>
+        
+      
+        
+          <li><a href="https://assouline-sh.github.io/posts">All Posts</a></li>
+        
+      
+        
+          <li><a href="https://assouline-sh.github.io/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="https://assouline-sh.github.io/resources">Resources</a></li>
+        
+      
+        
+          <li><a href="https://assouline-sh.github.io/studyspaces">Study Spaces</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="https://assouline-sh.github.io/about">About</a></li>
+      
+    
+      
+        <li><a href="https://assouline-sh.github.io/posts">All Posts</a></li>
+      
+    
+      
+        <li><a href="https://assouline-sh.github.io/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="https://assouline-sh.github.io/resources">Resources</a></li>
+      
+    
+      
+        <li><a href="https://assouline-sh.github.io/studyspaces">Study Spaces</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">EdX: Basic Network and Database Security</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          01-27-2022
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>Completed IBM&rsquo;s course <a href="https://www.edx.org/learn/network-security/ibm-basic-network-and-database-security">Basic Network and Database Security</a> on EdX.</p>
+<p>This was really exciting, as it&rsquo;s the first cybersecurity related online course I&rsquo;ve completed independently. It was hard to make time for it everyday- juggling college classes, clubs, and other responsibilities- but overall incredibly rewarding. I&rsquo;d like to continue to fit independent study within my schedule.</p>
+<hr>
+<p>Here are some of the main concepts covered:</p>
+<ul>
+<li>Stateless inspection and stateful inspection</li>
+<li>OSI model layers</li>
+<li>Address Resolution Protocol (ARP)</li>
+<li>Intrusion detection system (IDS) and intrusion prevention system (IPS)</li>
+<li>Network address translation</li>
+<li>Ethernet and LAN-ethernet operations</li>
+<li>Transport control protocol (TCP) and user datagram protocol (UDP)</li>
+<li>Domain name system (DNS) and dynamic host configuration protocol (DHCP)</li>
+<li>Clustering and high availability systems</li>
+<li>Types of data and how to secure databases</li>
+<li>OS command injection and prevention tactics</li>
+<li>SQL injection and prevention tactics</li>
+</ul>
+<hr>
+<p><img src="https://assouline-sh.github.io/img/edx.png" alt="Edx"></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://assouline-sh.github.io/post/wicys/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">WiCyS Conference</span>
+                </a>
+              </span>
+            
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="https://assouline-sh.github.io/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Shan&#39;s Blog</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2023 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://assouline-sh.github.io/assets/main.js"></script>
+<script src="https://assouline-sh.github.io/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

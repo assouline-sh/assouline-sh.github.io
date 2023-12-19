@@ -9,17 +9,17 @@
     <description>Recent content in Posts on Shans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://assouline-sh.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Welcome,</title>
-      <link>https://assouline-sh.github.io/post/hello/</link>
-      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <title>Cybersecurity Analyst at Draper</title>
+      <link>https://assouline-sh.github.io/post/draper/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/hello/</guid>
+      <guid>https://assouline-sh.github.io/post/draper/</guid>
       <description>
         
           
@@ -28,16 +28,16 @@
         
         
         
-          My name is Shannon and I am currently studying computer science at Northeastern University...
+          Just finished my first co-op experience: 7 months at Draper Labs as a Cybersecurity Analyst...
           
         
         </description>
     </item>
     
     <item>
-      <title>CySA&#43; Certification</title>
+      <title>CompTIA CySA&#43; Certification</title>
       <link>https://assouline-sh.github.io/post/cysa/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://assouline-sh.github.io/post/cysa/</guid>
       <description>
@@ -48,7 +48,87 @@
         
         
         
-          Passed CySA+! For two months, I biked to the office an hour early so I could...
+          Passed CySA+! For two months over the summer, I biked to the office an hour early so I could...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>CTF Club: Sub-Z3r0 CTF</title>
+      <link>https://assouline-sh.github.io/post/subzero/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/subzero/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Our last event of the semester: Sub-Z3r0 CTF! We went all-out for this competition, collaborating...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>First Keyboard Build</title>
+      <link>https://assouline-sh.github.io/post/keyborb/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/keyborb/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I&#39;ve been admiring KAM Superuser keycaps for a while, and finally bought them for my first custom...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Collegiate Pentesting Competition</title>
+      <link>https://assouline-sh.github.io/post/cptc/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/cptc/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          This weekend I competed in the Collegiate Penetration Testing Competition (CPTC) with a team...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>10th at Cyberforce Competition</title>
+      <link>https://assouline-sh.github.io/post/cyberforce/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/cyberforce/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Myself and other CCDC members competed in Cyberforce and ranked 10th out of 100+ teams...
           
         
         </description>
@@ -75,11 +155,11 @@
     </item>
     
     <item>
-      <title>National CCDC Competition</title>
-      <link>https://assouline-sh.github.io/post/nationals23/</link>
+      <title>5th at National CCDC Competition</title>
+      <link>https://assouline-sh.github.io/post/ccdc/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/nationals23/</guid>
+      <guid>https://assouline-sh.github.io/post/ccdc/</guid>
       <description>
         
           
@@ -88,14 +168,34 @@
         
         
         
-          This year, Northeastern&#39;s CCDC team made it to the national competition in Texas, and we...
+          This year, being on the Northeastern CCDC team, we made it to the national Collegiate Cyber...
           
         
         </description>
     </item>
     
     <item>
-      <title>Security&#43; Certification</title>
+      <title>CY3740: System Security</title>
+      <link>https://assouline-sh.github.io/post/cy3740/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/cy3740/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          System Security (CY3740) was- and I anticipate always will be- the best course I have taken...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>CompTIA Security&#43; Certification</title>
       <link>https://assouline-sh.github.io/post/security/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -115,11 +215,11 @@
     </item>
     
     <item>
-      <title>Udemy: Complete Ethical Hacking Course</title>
-      <link>https://assouline-sh.github.io/post/udemy_ethical_hacking/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <title>Udemy: Complete Ethical Hacking</title>
+      <link>https://assouline-sh.github.io/post/udemy/</link>
+      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/udemy_ethical_hacking/</guid>
+      <guid>https://assouline-sh.github.io/post/udemy/</guid>
       <description>
         
           
@@ -128,14 +228,14 @@
         
         
         
-          Completed The Complete Ethical Hacking Course on Udemy...
+          Completed The Complete Ethical Hacking Course on Udemy. This was a solid review of...
           
         
         </description>
     </item>
     
     <item>
-      <title>Object Oriented Design</title>
+      <title>CS3500: Object Oriented Design</title>
       <link>https://assouline-sh.github.io/post/cs3500/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
       
@@ -148,27 +248,7 @@
         
         
         
-          Object-Oriented Design (CS3500) has been the most challenging course I have taken to date...
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>System Security</title>
-      <link>https://assouline-sh.github.io/post/cy3740/</link>
-      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://assouline-sh.github.io/post/cy3740/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          System Security (CY3740) was- and I anticipate always will be- the best course I have taken...
+          Object-Oriented Design (CS3500) has been the most challenging course to date. The demanding...
           
         
         </description>
@@ -195,7 +275,7 @@
     </item>
     
     <item>
-      <title>Foundations of Cybersecurity</title>
+      <title>CY2550: Foundations of Cybersecurity</title>
       <link>https://assouline-sh.github.io/post/cy2550/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -236,10 +316,10 @@
     
     <item>
       <title>EdX: Basic Network and Database Security</title>
-      <link>https://assouline-sh.github.io/post/basic_network_and_database_security/</link>
+      <link>https://assouline-sh.github.io/post/edx/</link>
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/basic_network_and_database_security/</guid>
+      <guid>https://assouline-sh.github.io/post/edx/</guid>
       <description>
         
           
@@ -248,7 +328,7 @@
         
         
         
-          Completed IBM&#39;s course Basic Network and Database Security on EdX...
+          Completed IBM&#39;s course Basic Network and Database Security on EdX. This was really...
           
         
         </description>

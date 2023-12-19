@@ -3,7 +3,7 @@
   <head>
     
       <title>
-        Foundations of Cybersecurity ::
+        CY2550: Foundations of Cybersecurity ::
         Shans Blog — A simple theme for Hugo
       </title>
     
@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Foundations of Cybersecurity (CY2550) is the class I have been most excited about thus far. For once, instead of studying cybersecurity on my own and trying to figure out how to navigate the mass of information out there, I would be given structure- a clear learning path. Though I feel I didn’t learn a lot of new concepts, it was a great reinforcement of my previous knowledge. The genuinely fun assignments made me excited to continue progressing through the cyber program."
+  content="Foundations of Cybersecurity (CY2550) is the class I have been most excited about thus far. For once, instead of studying cybersecurity on my own and trying to navigate the mass of information out there, I would be given structure- a clear learning path. Though I didn’t learn a lot of new concepts, it was a great reinforcement of my previous knowledge. The genuinely fun assignments made me excited to continue progressing through my cybersecurity degree; I can&amp;rsquo;t wait to take more challenging cyber classes."
 />
 <meta
   name="keywords"
@@ -46,12 +46,12 @@
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Foundations of Cybersecurity"/>
+<meta name="twitter:title" content="CY2550: Foundations of Cybersecurity"/>
 <meta name="twitter:description" content="Foundations of Cybersecurity (CY2550) was the class I had been most excited for thus far..."/>
 
 
 
-<meta property="og:title" content="Foundations of Cybersecurity" />
+<meta property="og:title" content="CY2550: Foundations of Cybersecurity" />
 <meta property="og:description" content="Foundations of Cybersecurity (CY2550) was the class I had been most excited for thus far..." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://assouline-sh.github.io/post/cy2550/" /><meta property="article:section" content="post" />
@@ -80,7 +80,7 @@
 </svg>
 </span>
     <span class="logo__text"
-      >Shans Blog</span
+      >Shan&#39;s Blog</span
     >
     <span class="logo__cursor"></span>
   
@@ -97,7 +97,7 @@
         
       
         
-          <li><a href="https://assouline-sh.github.io/learning">Learning</a></li>
+          <li><a href="https://assouline-sh.github.io/posts">All Posts</a></li>
         
       
         
@@ -123,7 +123,7 @@
       
     
       
-        <li><a href="https://assouline-sh.github.io/learning">Learning</a></li>
+        <li><a href="https://assouline-sh.github.io/posts">All Posts</a></li>
       
     
       
@@ -176,11 +176,11 @@
   
 
   <div class="post">
-    <h1 class="post-title">Foundations of Cybersecurity</h1>
+    <h1 class="post-title">CY2550: Foundations of Cybersecurity</h1>
     <div class="post-meta">
       
         <span class="post-date">
-          2022-05-30
+          05-30-2022
         </span>
 
         
@@ -200,124 +200,19 @@
 
     <div class="post-content">
       
-      <p>Foundations of Cybersecurity (CY2550) is the class I have been most excited about thus far. For once, instead of studying cybersecurity on my own and trying to figure out how to navigate the mass of information out there, I would be given structure- a clear learning path. Though I feel I didn’t learn a lot of new concepts, it was a great reinforcement of my previous knowledge. The genuinely fun assignments made me excited to continue progressing through the cyber program.</p>
-<p>Below is an overview of my key takeaways from the course.</p>
+      <p>Foundations of Cybersecurity (CY2550) is the class I have been most excited about thus far. For once, instead of studying cybersecurity on my own and trying to navigate the mass of information out there, I would be given structure- a clear learning path. Though I didn’t learn a lot of new concepts, it was a great reinforcement of my previous knowledge. The genuinely fun assignments made me excited to continue progressing through my cybersecurity degree; I can&rsquo;t wait to take more challenging cyber classes.</p>
 <hr>
-<h3 id="history">History</h3>
+<p>Here are some of the domains we covered:</p>
 <ul>
-<li>Cybersecurity arguably traces its origins to the 1970s, the golden age of phreaking</li>
-<li>ARPANET → The Orange Book → Computer Fraud and Abuse Act → More secure protocols → Internet becomes privatized → Internet rapidly grows, is insecure, and unprepared for such a connected world, leading to the proliferation of several worms, viruses, and attacks</li>
-</ul>
-<h3 id="threat-modeling">Threat Modeling</h3>
-<ol>
-<li>Identify your assets</li>
-<li>Enumerate attack surfaces</li>
-<li>Hypothesize attackers and map them to:
-<ol>
-<li>Desired value from assets</li>
-<li>Ability to target vulnerable surfaces from attack surfaces</li>
-</ol>
-</li>
-<li>Survey mitigations</li>
-<li>Balance cost versus risk</li>
-</ol>
-<ul>
-<li>Various methodologies for threat modeling are available, including: STRIDE, DREAD, OWASP testing framework, PASTA, VAST, and OCTAVE</li>
-</ul>
-<h3 id="cryptography">Cryptography</h3>
-<ul>
-<li><strong>C</strong>onfidentiality, <strong>I</strong>ntegrity, <strong>A</strong>uthenticity, and <strong>N</strong>on-repudiation, are often assured through cryptography</li>
-<li>No security through obscurity; Kerchoffs’ Principle and Shannon’s Maxim</li>
-<li>One time pads, symmetric key cryptography, block ciphers</li>
-<li>Asymmetric cryptography, certificate authorities, Diffie-Hellman basis for protocols with Perfect Forward Secrecy, RSA based on difficulty of factoring the product of primes</li>
-</ul>
-<h3 id="authentication">Authentication</h3>
-<ul>
-<li>Classes of secrets: something you know (i.e. password), have (i.e. phone), or are (i.e. biometric)</li>
-<li>Passwords are often weak enough for brute-force or dictionary attacks, and hash chains can enable time-space efficient reversal of hash functions (but is prone to collisions)
-<ul>
-<li>Rainbow tables improve on hash chains by using a family of reductions instead of a single reduction to reduce the likelihood of collisions; defeated by salting and key stretching</li>
-</ul>
-</li>
-<li>Measure password quality with entropy S = log₂N^L; note that length matters more than symbol types</li>
-</ul>
-<h3 id="access-control">Access Control</h3>
-<ul>
-<li>Discretionary access control vs. mandatory access control</li>
-<li>With setuid, a program may execute as the file owner, rather than executing principal
-<ul>
-<li>Note: only setuid on compiled binary programs, not scripts, as it can lead to TOCTOU vulnerabilities</li>
-</ul>
-</li>
-<li>A capability-based access control system can fix the confused deputy problem (subject cannot tell which principal it is serving when it performs a write) because selecting a capability also selects a master</li>
-<li>Security models: Bell-LaPadula (read down, write up) only address confidentiality while Biba Integrity Model (read up, write down) only addresses integrity</li>
-</ul>
-<h3 id="social-engineering">Social Engineering</h3>
-<ul>
-<li>Humans are the weakest link in the cybersecurity chain</li>
-<li>Subconscious decision-making reduces cognitive burden, like subconscious cognitive biases including behavioral, social, and memory biases</li>
-<li>Social engineering attacks include: baiting, tailgating, scareware, advance-fee scams, phishing or spear phishing
-<ul>
-<li>Leverage cognitive biases and rely on: information asymmetry, context construction, elicitation. and persuasion</li>
-</ul>
-</li>
-</ul>
-<h3 id="systems-security">Systems Security</h3>
-<ul>
-<li>Hardware support for process isolation with virtual memory and protected mode execution (rings) which stops direct access to devices and allows OS to impose access control checks
-<ul>
-<li>Base and bound registers, segmentation, and page tables enforce virtual memory</li>
-<li>Ring 0: OS → Ring 1, 2: device drivers → Ring 3: userland</li>
-</ul>
-</li>
-<li>File access control, anti-virus, firewall, and secure logging</li>
-<li>Separation of privilege, least privilege, compromise recording, work factor, authentication rate limiting, open design, economy of mechanism, and complete mediation</li>
-</ul>
-<h3 id="exploits">Exploits</h3>
-<ul>
-<li>Cross site scripting can be reflected, stored, or DOM-based, and allows user input to be interpreted as document structure to lead to malicious code execution
-<ul>
-<li>To mitigate: cookie restrictions, client-side filter, input validation, output filtering</li>
-</ul>
-</li>
-<li>SQL injections
-<ul>
-<li>To mitigate: escaping inputs, sanitizing inputs, prepared statements, object-relational mappings, domain-specific languages</li>
-</ul>
-</li>
-<li>In buffer overflow, vulnerability often stems from the fact that low-level languages are not memory safe and control flow information is stored inline with user data on the stack
-<ul>
-<li>Compiled shellcode that is injected must be zero-clean, and an NOP sled is often built in front of the shellcode</li>
-<li>To mitigate: stack canaries (sentinel values before each saved IP), non-executable stacks, address-space layout randomization</li>
-</ul>
-</li>
-</ul>
-<h3 id="ddos">DDOS</h3>
-<ul>
-<li>Denial of service achieves scale with volunteers, reflection and amplification, and botnets</li>
-<li>Smurfing works because ICMP protocol doesn’t include authentication and the attacker benefits from an amplification factor</li>
-<li>To mitigate: anti-amplification, network filters, anti-spoofing, content distribution networks,</li>
-</ul>
-<h3 id="apt">APT</h3>
-<ul>
-<li>Generally, cybercriminals are profit-drive, opportunistic, and part of an underground economy while APTs are intelligence and espionage-driven, highly targeted, and highly secretive</li>
-<li>Lazarus group, PLA Unit 61398, Fancy Bear, Cozy Bear</li>
-<li>Shadow brokers, Vault7, Stuxnet</li>
-<li>Tallinn manual examined how existing international law applies to online conflict</li>
-<li>Hoarding vs. disclosing zero-days and Vulnerabilities Equities Process</li>
-</ul>
-<h3 id="cyberlaw">Cyberlaw</h3>
-<ul>
-<li>Computer Fraud and Abuse Act (CFAA) of 1986 prohibits accessing a protected computer without authorization; authorization can be defined by policy or by mechanism</li>
-<li>Digital Millennium Copyright Act (DMCA) of 1998 criminalizes circumvention of access controls and the distribution of circumvention tools, regardless of infringing on copyright</li>
-<li>CAN-SPAM Act of 2003 enshrines an opt-out, rather than an opt-in system</li>
-</ul>
-<h3 id="web-privacy">Web Privacy</h3>
-<ul>
-<li>Online advertising companies, online data brokers, and offline data brokers track you</li>
-<li>Stateful identifiers (IP address, cookies, locally shared objects (LSOs), E-tags, etc) and stateless fingerprints (browser and OS version, plugins / extensions, audio and battery, etc)</li>
-<li>To mitigate tracking: incognito browsing, VPN, secure browser, delete cookies, localstorage, and cache, ad and tracker blocking extensions, disable JavaScript, uMatrix extension</li>
-<li>Subject Access Rights give the ability to see, modify, and delete data collected about you while Affirmative notice and consent is prominent disclosure of collection and ability to opt-out</li>
+<li>History of cybersecurity</li>
+<li>Threat Modeling</li>
+<li>Cryptography</li>
+<li>Authentication</li>
+<li>Access Control</li>
+<li>Systems Security</li>
+<li>Web Privacy</li>
+<li>Exploits</li>
+<li>Cyberlaw</li>
 </ul>
 
     </div>
@@ -377,7 +272,7 @@
 </svg>
 </span>
     <span class="logo__text"
-      >Shans Blog</span
+      >Shan&#39;s Blog</span
     >
     <span class="logo__cursor"></span>
   

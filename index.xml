@@ -9,17 +9,17 @@
     <description>Recent content on Shans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://assouline-sh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Welcome,</title>
-      <link>https://assouline-sh.github.io/post/hello/</link>
-      <pubDate>Tue, 12 Sep 2023 00:00:00 +0000</pubDate>
+      <title>Cybersecurity Analyst at Draper</title>
+      <link>https://assouline-sh.github.io/post/draper/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/hello/</guid>
+      <guid>https://assouline-sh.github.io/post/draper/</guid>
       <description>
         
           
@@ -28,16 +28,16 @@
         
         
         
-          My name is Shannon and I am currently studying computer science at Northeastern University...
+          Just finished my first co-op experience: 7 months at Draper Labs as a Cybersecurity Analyst...
           
         
         </description>
     </item>
     
     <item>
-      <title>CySA&#43; Certification</title>
+      <title>CompTIA CySA&#43; Certification</title>
       <link>https://assouline-sh.github.io/post/cysa/</link>
-      <pubDate>Sun, 10 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Dec 2023 00:00:00 +0000</pubDate>
       
       <guid>https://assouline-sh.github.io/post/cysa/</guid>
       <description>
@@ -48,7 +48,87 @@
         
         
         
-          Passed CySA+! For two months, I biked to the office an hour early so I could...
+          Passed CySA+! For two months over the summer, I biked to the office an hour early so I could...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>CTF Club: Sub-Z3r0 CTF</title>
+      <link>https://assouline-sh.github.io/post/subzero/</link>
+      <pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/subzero/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Our last event of the semester: Sub-Z3r0 CTF! We went all-out for this competition, collaborating...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>First Keyboard Build</title>
+      <link>https://assouline-sh.github.io/post/keyborb/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/keyborb/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          I&#39;ve been admiring KAM Superuser keycaps for a while, and finally bought them for my first custom...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Collegiate Pentesting Competition</title>
+      <link>https://assouline-sh.github.io/post/cptc/</link>
+      <pubDate>Sun, 12 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/cptc/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          This weekend I competed in the Collegiate Penetration Testing Competition (CPTC) with a team...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>10th at Cyberforce Competition</title>
+      <link>https://assouline-sh.github.io/post/cyberforce/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/cyberforce/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Myself and other CCDC members competed in Cyberforce and ranked 10th out of 100+ teams...
           
         
         </description>
@@ -75,11 +155,11 @@
     </item>
     
     <item>
-      <title>National CCDC Competition</title>
-      <link>https://assouline-sh.github.io/post/nationals23/</link>
+      <title>5th at National CCDC Competition</title>
+      <link>https://assouline-sh.github.io/post/ccdc/</link>
       <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/nationals23/</guid>
+      <guid>https://assouline-sh.github.io/post/ccdc/</guid>
       <description>
         
           
@@ -88,14 +168,34 @@
         
         
         
-          This year, Northeastern&#39;s CCDC team made it to the national competition in Texas, and we...
+          This year, being on the Northeastern CCDC team, we made it to the national Collegiate Cyber...
           
         
         </description>
     </item>
     
     <item>
-      <title>Security&#43; Certification</title>
+      <title>CY3740: System Security</title>
+      <link>https://assouline-sh.github.io/post/cy3740/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/cy3740/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          System Security (CY3740) was- and I anticipate always will be- the best course I have taken...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>CompTIA Security&#43; Certification</title>
       <link>https://assouline-sh.github.io/post/security/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
@@ -115,11 +215,11 @@
     </item>
     
     <item>
-      <title>Udemy: Complete Ethical Hacking Course</title>
-      <link>https://assouline-sh.github.io/post/udemy_ethical_hacking/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <title>Udemy: Complete Ethical Hacking</title>
+      <link>https://assouline-sh.github.io/post/udemy/</link>
+      <pubDate>Sun, 18 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/udemy_ethical_hacking/</guid>
+      <guid>https://assouline-sh.github.io/post/udemy/</guid>
       <description>
         
           
@@ -128,14 +228,14 @@
         
         
         
-          Completed The Complete Ethical Hacking Course on Udemy...
+          Completed The Complete Ethical Hacking Course on Udemy. This was a solid review of...
           
         
         </description>
     </item>
     
     <item>
-      <title>Object Oriented Design</title>
+      <title>CS3500: Object Oriented Design</title>
       <link>https://assouline-sh.github.io/post/cs3500/</link>
       <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
       
@@ -148,27 +248,7 @@
         
         
         
-          Object-Oriented Design (CS3500) has been the most challenging course I have taken to date...
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>System Security</title>
-      <link>https://assouline-sh.github.io/post/cy3740/</link>
-      <pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://assouline-sh.github.io/post/cy3740/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          System Security (CY3740) was- and I anticipate always will be- the best course I have taken...
+          Object-Oriented Design (CS3500) has been the most challenging course to date. The demanding...
           
         
         </description>
@@ -195,7 +275,7 @@
     </item>
     
     <item>
-      <title>Foundations of Cybersecurity</title>
+      <title>CY2550: Foundations of Cybersecurity</title>
       <link>https://assouline-sh.github.io/post/cy2550/</link>
       <pubDate>Mon, 30 May 2022 00:00:00 +0000</pubDate>
       
@@ -236,10 +316,10 @@
     
     <item>
       <title>EdX: Basic Network and Database Security</title>
-      <link>https://assouline-sh.github.io/post/basic_network_and_database_security/</link>
+      <link>https://assouline-sh.github.io/post/edx/</link>
       <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://assouline-sh.github.io/post/basic_network_and_database_security/</guid>
+      <guid>https://assouline-sh.github.io/post/edx/</guid>
       <description>
         
           
@@ -248,14 +328,47 @@
         
         
         
-          Completed IBM&#39;s course Basic Network and Database Security on EdX...
+          Completed IBM&#39;s course Basic Network and Database Security on EdX. This was really...
           
         
         </description>
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>All Posts</title>
+      <link>https://assouline-sh.github.io/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/posts/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          2023 12-19 Security Analyst at Draper Labs
+12-17 CompTIA CySA+ Certification
+12-03 Sub-Z3r0 CTF Competition
+11-30 First Custom Keyboard
+11-12 Collegiate Penetration Testing Competition (CPTC)
+11-05 Cyberforce Competition
+09-01 Starting CTF Club at Northeastern
+05-01 National Collegiate Cyber Defense Competition (CCDC)
+04-15 CY3740: System Security
+01-20 CompTIA Security+ Certification
+2022 12-18 Udemy: Complete Ethical Hacking Course
+07-04 CS3500: Object Oriented Design
+06-15 Featured on Khoury Website
+05-30 CY2550: Foundations of Cybersecurity
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Personal Projects</title>
       <link>https://assouline-sh.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -270,40 +383,10 @@
         
           Ongoing
 CTF Club Challenges
-As Co-Founder and Vice President of the CTF club on campus, I have been making CTF challenges for our general meetings and competitions. The challenges range in topic and difficulty, and are designed to introduce members of all skill levels to various cybersecurity areas.
-2023-08
-Linux Security Dashboard
-Python. Designed a user-friendly CLI dashboard to display an overview of a Linux system&amp;rsquo;s current status and network activity at a glance.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Recent Learning</title>
-      <link>https://assouline-sh.github.io/learning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://assouline-sh.github.io/learning/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          What I&amp;rsquo;ve been learning in my free time&amp;hellip;
-2023-09 - Currently:
-Studying for CompTIA PenTest+ Reading Mastering Linux Security and Hardening and implementing techniques in creating CCDC tools PicoCTF, CTFLearn, TryHackMe, Grind 75 Leetcode 2023-09
-CompTIA: Cybersecurity Analyst (CySA+)
-My main takeaways can be found here
-2023-01
-CompTIA: Security+
-My main takeaways can be found here
-2022-08
-Udemy: The Complete Ethical Hacking Course
-My main takeaways can be found here
+As Co-Founder and Vice President of the CTF club on campus, I make CTF challenges for our general meetings and competitions. The challenges range in topic and difficulty, and are designed to introduce members of all skill levels to various cybersecurity areas.
+01-2024
+Sniffer
+Python. Sniff a victim&amp;rsquo;s network traffic by poisoning their ARP cache to redirect all traffic through the attacking system. Looks specifically for unencrypted credentials sent on ports that often run less secure protocols.
           
         
         </description>
@@ -323,15 +406,15 @@ My main takeaways can be found here
         
         
         
-          Some great resources I&amp;rsquo;ve used to learn about cybersecurity and practice skills:
-Hands-On Hacking TryHackMe Hack the Box PicoCTF CTF Learn pwn.college RingZer0 VulnHub Over the Wire: Wargames Papers and Books The Protection of Information in Computer Systems Reflections on Trusting Trust Mastering Linux Security and Hardening News The Hacker News Threatpost Bleeping Media Dark Reading Youtubers IppSec LiveOverflow Null Byte John Hammond Network Chuck Misc. References Map of Cybersecurity Domains CTF Playbook CTF 101 Guide CTF Tools HackTricks 
+          Select resources I&amp;rsquo;ve used to learn and practice skills:
+Hands-On Hacking Hack the Box VulnHub TryHackMe pwn.college PentesterLab Over the Wire: Wargames Pwnable.tw Root Me Smash the Stack CTFs Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes CTF101 PicoCTF CTF Learn RingZer0 CTF Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News The Hacker News Bleeping Computer Threatpost Dark Reading Youtubers IppSec LiveOverflow Null Byte John Hammond Network Chuck Misc.
           
         
         </description>
     </item>
     
     <item>
-      <title>Study Space Reviews</title>
+      <title>Study Spaces</title>
       <link>https://assouline-sh.github.io/studyspaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -344,9 +427,10 @@ Hands-On Hacking TryHackMe Hack the Box PicoCTF CTF Learn pwn.college RingZer0 V
         
         
         
-          Some of my favorite study spots:
-Interior Highlight Drink High ceilings, simple colors Creative seating Rose Matcha Latte Ogawa Coffee; Milk St, Boston MA
-Rose matcha latte is sophisticatedly balanced, and the aroma of sprinkled rose petals accompanies every sip. Simple interior, windows stretching from the floor to high ceilings, ample types of seating, and soft classical music in the background. If its address isn&amp;rsquo;t clue enough that Ogawa is the perfect study cafe, this is your sign.
+          Some of my favorite Boston-area cafes to study in.
+Perfect for a warm cup of coffee and a soft ambience to get cozy in the terminal for a few hours.
+Pavement Coffee My go-to spot for a productive morning, nestled conveniently close to campus. Sweet matcha lattes, hearty bagels. Spacious but quickly fills with the gentle hum of studious, socializing college kids.
+Ogawa Coffee Coming from Japan with their first international shop here, Ogawa undoubtedly serves the best matcha in Boston.
           
         
         </description>
@@ -366,10 +450,14 @@ Rose matcha latte is sophisticatedly balanced, and the aroma of sprinkled rose p
         
         
         
-          My name is Shannon and I am a current third-year studying computer science with a systems concentration at Northeastern University.
-Here you&amp;rsquo;ll find a collection of things I&amp;rsquo;m currently learning, some personal projects, educational resources I have found useful, and brief reviews of my favorite Boston-area coffee shops to study in.
-Academic Interests My interests primarily lie in the field of cybersecurity:
-Penetration Testing DevSecOps Security Engineering I gravitate towards topics that delve into the technical intricacies of cybersecurity and require a programming-centric approach.
+          My name is Shannon :)
+I&amp;rsquo;m a junior studying cybersecurity with a cyber operations concentration at Northeastern University.
+Here you&amp;rsquo;ll find a collection of what I&amp;rsquo;m currently learning, small personal projects, educational resources I&amp;rsquo;ve found useful, and brief reviews of my favorite Boston-area coffee shops to study in.
+I&amp;rsquo;m primarily interested in:
++ Security Engineering
++ DevSecOps
++ Penetration Testing
+I enjoy crafting secure and resilient code to drive operational efficiencies, address complex security challenges, and fortify evolving cyber landscapes.
           
         
         </description>

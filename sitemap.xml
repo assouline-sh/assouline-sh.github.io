@@ -2,34 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://assouline-sh.github.io/post/draper/</loc>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://assouline-sh.github.io/post/</loc>
-    <lastmod>2023-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://assouline-sh.github.io/</loc>
-    <lastmod>2023-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://assouline-sh.github.io/post/hello/</loc>
-    <lastmod>2023-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://assouline-sh.github.io/post/cysa/</loc>
-    <lastmod>2023-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://assouline-sh.github.io/post/subzero/</loc>
+    <lastmod>2023-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://assouline-sh.github.io/post/keyborb/</loc>
+    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://assouline-sh.github.io/post/cptc/</loc>
+    <lastmod>2023-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://assouline-sh.github.io/post/cyberforce/</loc>
+    <lastmod>2023-11-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://assouline-sh.github.io/post/ctfclub/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://assouline-sh.github.io/post/nationals23/</loc>
+    <loc>https://assouline-sh.github.io/post/ccdc/</loc>
     <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://assouline-sh.github.io/post/cy3740/</loc>
+    <lastmod>2023-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://assouline-sh.github.io/post/security/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://assouline-sh.github.io/post/udemy_ethical_hacking/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <loc>https://assouline-sh.github.io/post/udemy/</loc>
+    <lastmod>2022-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://assouline-sh.github.io/post/cs3500/</loc>
-    <lastmod>2022-07-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://assouline-sh.github.io/post/cy3740/</loc>
     <lastmod>2022-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://assouline-sh.github.io/post/feature/</loc>
@@ -41,14 +53,14 @@
     <loc>https://assouline-sh.github.io/post/wicys/</loc>
     <lastmod>2022-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://assouline-sh.github.io/post/basic_network_and_database_security/</loc>
+    <loc>https://assouline-sh.github.io/post/edx/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://assouline-sh.github.io/posts/</loc>
   </url><url>
     <loc>https://assouline-sh.github.io/categories/</loc>
   </url><url>
     <loc>https://assouline-sh.github.io/projects/</loc>
-  </url><url>
-    <loc>https://assouline-sh.github.io/learning/</loc>
   </url><url>
     <loc>https://assouline-sh.github.io/resources/</loc>
   </url><url>
