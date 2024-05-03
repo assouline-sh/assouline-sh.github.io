@@ -9,10 +9,70 @@
     <description>Recent content on Shans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://assouline-sh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>7th at National CCDC Competition</title>
+      <link>https://assouline-sh.github.io/post/ccdc2/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/ccdc2/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          This year, being on the Northeastern CCDC team, we made it to the national Collegiate Cyber...
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Basic MacOS Rice</title>
+      <link>https://assouline-sh.github.io/post/rice/</link>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/rice/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>CTF Club: SeaTF</title>
+      <link>https://assouline-sh.github.io/post/seatf/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/seatf/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Our last event of the semester: Sub-Z3r0 CTF! We went all-out for this competition, collaborating...
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>Cybersecurity Analyst at Draper</title>
@@ -335,86 +395,7 @@
     </item>
     
     <item>
-      <title>All Posts</title>
-      <link>https://assouline-sh.github.io/posts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://assouline-sh.github.io/posts/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          2023 12-19 Cybersecurity Analyst at Draper Labs
-12-17 CompTIA CySA+ Certification
-12-03 Sub-Z3r0 CTF Competition
-11-30 First Custom Keyboard
-11-12 Collegiate Penetration Testing Competition (CPTC)
-11-05 Cyberforce Competition
-09-01 Starting CTF Club at Northeastern
-05-01 National Collegiate Cyber Defense Competition (CCDC)
-04-15 CY3740: System Security
-01-20 CompTIA Security+ Certification
-2022 12-18 Udemy: Complete Ethical Hacking Course
-07-04 CS3500: Object Oriented Design
-06-15 Featured on Khoury Website
-05-30 CY2550: Foundations of Cybersecurity
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Personal Projects</title>
-      <link>https://assouline-sh.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://assouline-sh.github.io/projects/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Ongoing
-CTF Club Challenges
-As Co-Founder and Vice President of the CTF club on campus, I make CTF challenges for our general meetings and competitions. The challenges range in topic and difficulty, and are designed to introduce members of all skill levels to various cybersecurity areas.
-01-2024
-Sniffer
-Python. Sniff a victim&amp;rsquo;s network traffic by poisoning their ARP cache to redirect all traffic through the attacking system. Looks specifically for unencrypted credentials sent on ports that often run less secure protocols.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>https://assouline-sh.github.io/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://assouline-sh.github.io/resources/</guid>
-      <description>
-        
-          
-          
-          
-        
-        
-        
-          Select resources I&amp;rsquo;ve used to learn and practice skills:
-Hands-On Hacking Hack the Box VulnHub TryHackMe pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Root Me Smash the Stack CTFs Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes CTF101 PicoCTF CTF Learn RingZer0 CTF Sad Servers Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News The Hacker News Bleeping Computer Threatpost Dark Reading Youtubers IppSec LiveOverflow Null Byte John Hammond Network Chuck Misc.
-          
-        
-        </description>
-    </item>
-    
-    <item>
-      <title>Study Spaces</title>
+      <title>\&gt; cat &#39;Study Spaces&#39;</title>
       <link>https://assouline-sh.github.io/studyspaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -437,7 +418,87 @@ Ogawa Coffee Coming from Japan with their first international shop here, Ogawa u
     </item>
     
     <item>
-      <title>Welcome,</title>
+      <title>\&gt; find . -type l -ls</title>
+      <link>https://assouline-sh.github.io/all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/all/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          All posts, linked
+2024 04-06 7th at National CCDC Competition
+04-21 Basic MacOS Rice
+04-27 CTF Club: SeaTF Competition
+2023 12-19 Cybersecurity Analyst at Draper Labs
+12-17 CompTIA CySA+ Certification
+12-03 CTF Club: Sub-Z3r0 CTF Competition
+11-30 First Custom Keyboard
+11-12 Collegiate Penetration Testing Competition (CPTC)
+11-05 10th at Cyberforce Competition
+09-01 Starting CTF Club at Northeastern
+05-01 5th at National CCDC Competition
+04-15 CY3740: System Security
+01-20 CompTIA Security+ Certification
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>\&gt; history</title>
+      <link>https://assouline-sh.github.io/ideas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/ideas/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Random ideas I&amp;rsquo;ve made in the past
+Ongoing
+CTF Club Challenges
+As Co-Founder and Vice President of the CTF club on campus, I make CTF challenges for our general meetings and competitions. The challenges range in topic and difficulty, and are designed to introduce members of all skill levels to various cybersecurity areas.
+01-2024
+Sniffer
+Python. Sniff a victim&amp;rsquo;s network traffic by poisoning their ARP cache to redirect all traffic through the attacking system.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>\&gt; ls -R</title>
+      <link>https://assouline-sh.github.io/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/resources/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Various resources I&amp;rsquo;ve used to learn and practice:
+Hands-On Practice Hack the Box TryHackMe VulnHub pwn.college PentesterLab SadServers Over the Wire: Wargames Pwnable.tw Smash the Stack CTFs CTF Time PicoCTF CTF Learn CTF101 Awesome-CTF Awesome Penetration Testing CTF Writeups HackTricks ired.team Notes Papers and Books Linux Hardening In Hostile Networks: Server Security From TLS To Tor Mastering Linux Security and Hardening Learn Penetration Testing Penetration Testing: A Survival Guide News The Hacker News Bleeping Computer Threatpost Dark Reading CISA Exploited Vulnerabilities CISA Advisories Youtubers The Linux Experiment Low Level Learning Network Chuck John Hammond Fireship Dreams of Code Wolfgang&amp;rsquo;s Channel LiveOverflow Misc.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>\&gt; whoami</title>
       <link>https://assouline-sh.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -450,8 +511,7 @@ Ogawa Coffee Coming from Japan with their first international shop here, Ogawa u
         
         
         
-          My name is Shannon :)
-I&amp;rsquo;m a junior studying cybersecurity with a cyber operations concentration at Northeastern University.
+          I&amp;rsquo;m Shannon, a senior studying cybersecurity at Northeastern University.
 Here you&amp;rsquo;ll find a collection of what I&amp;rsquo;m currently learning, small personal projects, educational resources I&amp;rsquo;ve found useful, and brief reviews of my favorite Boston-area coffee shops to study in.
 I&amp;rsquo;m primarily interested in:
 + Security Engineering
