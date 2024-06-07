@@ -9,10 +9,30 @@
     <description>Recent content on Shans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://assouline-sh.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Captain for eCitadel Open Defense Competition</title>
+      <link>https://assouline-sh.github.io/post/ecitadel/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://assouline-sh.github.io/post/ecitadel/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Quick four hour competition this past weekend! I was the captain for our team of 4, and...
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>7th at National CCDC Competition</title>
@@ -432,7 +452,8 @@ Ogawa Coffee Coming from Japan with their first international shop here, Ogawa u
         
         
           All posts, linked
-2024 04-06 7th at National CCDC Competition
+2024 05-19 Captain for eCitadel Open Defense Competition
+04-06 7th at National CCDC Competition
 04-21 Basic MacOS Rice
 04-27 CTF Club: SeaTF Competition
 2023 12-19 Cybersecurity Analyst at Draper Labs
@@ -443,8 +464,6 @@ Ogawa Coffee Coming from Japan with their first international shop here, Ogawa u
 11-05 10th at Cyberforce Competition
 09-01 Starting CTF Club at Northeastern
 05-01 5th at National CCDC Competition
-04-15 CY3740: System Security
-01-20 CompTIA Security+ Certification
           
         
         </description>
